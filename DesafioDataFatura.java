@@ -4,10 +4,11 @@ import java.util.*;
 import java.text.*;
 
 public class DesafioDataFatura {
+	private static Scanner entVenc;
 	public static void main (String [] args) throws ParseException {
 		
 		//Solicita a data de vencimento da fatura
-		Scanner entVenc = new Scanner(System.in);
+		entVenc = new Scanner(System.in);
 		System.out.println("Digite a data de vencimento da futura abaixo: " + "\n *digite a data com barras no seguinte formato: dd/mm/aaaa");
 		String dataReceb = entVenc.nextLine();
 		
